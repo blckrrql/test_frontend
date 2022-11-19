@@ -1,0 +1,359 @@
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+    font-family: "Rubik";
+}
+@font-face {
+    src: url("../fonts/Rubik-Bold.ttf");
+    font-family: "Rubik-Bold";
+}
+body {
+    margin: 0;
+    background: #FCFCFC;
+    width: 100%;
+}
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+.header_content {
+    width: 100%(body);
+    height: 55px;
+    background: #50CAFF;
+    display: flex;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.logo {
+    width: 190px;
+    background: #003B72;
+}
+.logo_1 {
+    width: 190px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile_1 {
+    margin: 12px 0px 10px 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+#search {
+    height: 18px;
+    width: 18.000003814697266px;
+    margin-right: 21.55px;
+}
+#notifications {
+    height: 18px;
+    width: 14.892427444458008px;
+    margin-right: 21.55px;
+}
+#vision {
+    width: 18px;
+    height: 18px;
+    margin-right: 21.55px;
+}
+#profile {
+    width: 72px;
+    height: 49px;
+    margin-right: 40px;
+}
+.icons {
+    align-content: center;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    margin: 0px;
+    width: 190px;
+    height: 100%(html);
+    background: #003B72;
+    list-style: none;
+    position: relative;
+}
+.pages_nav {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.markers {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.page {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.li_nav {
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+.images_nav {
+    margin: 0px 14px;
+}
+.apply_button {
+    background: #7761FF;
+    border-radius: 5px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border-color: transparent;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+.apply {
+    width: 190px;
+    text-align: center;
+}
+main {
+    display: flex;
+}
+.container {
+    width: 100%;
+    margin-left: 20px;
+}
+.appointments {
+    width: 100%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.appointment {
+    width: 475px;
+    height: 174px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.appointment_container {
+    margin: 0px 20px;
+}
+.date {
+    font-family: 'Rubik-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 20px 0px 5px;
+    margin: 0px;
+}
+.place {
+    height: 40px;
+    width: 290px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0px;
+}
+.doctor {
+    display: flex;
+}
+.doctor_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name {
+    font-family: 'Rubik-Bold';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    height: 17px;
+    margin: 0px;
+}
+.direction {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBE7FF;
+    height: 17px;
+    margin: 4px 0px 0px;
+}
+.doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button_app {
+    width: 98px;
+}
+.container_1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+}
+.more {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    height: 17px;
+    margin: 0px;
+}
+.app-s {
+    color: rgba(80, 202, 255, 1);
+    margin-top: 5px;
+}
+.more_appointments {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.flex_screen {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 540px;
+    height: 183px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    display: flex;
+    margin: 0px 15px 15px 0px;
+}
+.cards_vector {
+    width: 133px;
+    height: 183px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.cards_flex {
+    width: 100%(body);
+    display: flex;
+}
+.cards_title {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    margin: 20px 36px 20px 30px;
+    width: 335px;
+}
+.cards_lis {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+.line {
+    width: 335px;
+    height: 0px;
+    left: 935px;
+    top: 426px;
+    border: 1px solid #EBE7FF;
+    background: rgba(235, 231, 255, 1);
+    margin: 0px;
+    padding: 0px;
+}
+.cards_name {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0px 0px 10px;
+}
+.cards_funcs {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#card_ul {
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    padding-left: 17px;
+}
+#scroll {
+    width: 515px;
+    height: 646px;
+    overflow-y: auto;
+}
+#scroll::-webkit-scrollbar {
+    width: 8px;
+}
+#scroll::-webkit-scrollbar-track {
+    background: #EBE7FF;
+    border-radius: 5px;;
+}
+#scroll::-webkit-scrollbar-thumb {
+    background: #003B72;
+    border-radius: 5px;
+}
+.page_2_screen {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.my_appointments {
+    display: flex;
+    margin: 0px 0px 15px;
+}
+.page_2 {
+    margin: 0px;
+}
+.page_2_appointments {
+    margin-bottom: 15px;
+}

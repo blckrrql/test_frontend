@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Личный кабинет пациента</title>
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <div class="logo">
+                <p class="logo_1">Логотип</p>
+            </div>
+            <div class="profile">
+                <div>
+                    <h2 class="profile_1">Мой профиль</h2>
+                </div>
+                <div class="icons">
+                    <a href="a"><img id='search' class="icons" src="./images/search.svg" alt="search"></a>
+                    <a href="a"><img id='notifications' class="icons" src="./images/notifications.svg" alt="notifications"></a>
+                    <a href="a"><img id='vision' class="icons" src="./images/vision.svg" alt="vision"></a>
+                    <a href="a"><img id='profile' class="icons" src="./images/profile.svg" alt="profile"></a>
+                </div>
+            </div>  
+        </div> 
+    </header>
+    <main>
+        <div class="navigation">
+            <nav class="pages_nav">
+                <ul class="markers">
+                    <li class="li_nav"><a class="page" href="a"><img src="./images/heart.svg" class="images_nav">Профиль</a></li>
+                    <li class="li_nav"><a class="page" href="a"><img src="./images/doctors.svg" class="images_nav">Врачи и клиники</a></li>
+                    <li class="li_nav"><a class="page" href="a"><img src="./images/messages.svg" class="images_nav">Сообщения</a></li>
+                    <li class="li_nav"><a class="page" href="a"><img src="./images/test.svg" class="images_nav">Тестирование</a></li>
+                    <li class="li_nav"><a class="page" href="a"><img src="./images/knowlege.svg" class="images_nav">Полезно знать</a></li>
+                </ul>
+            </nav>
+            <div class="apply">
+                <button class="apply_button">Подать заявку</button>
+            </div>
+        </div>
+        <div class="flex_screen">
+            <section class="container">
+                <p class="appointments">Записи на приём</p>
+                <div class="container_1">
+                    <div class="appointment">
+                        <div class="appointment_container">
+                            <h3 class="date">Понедельник 15.06.20 | 15:30</h3>
+                            <p class="place">СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А</p>
+                            <div class="doctor_button">
+                                <div class="doctor">
+                                    <img class="photo" src="./images/malushko.svg">
+                                    <div class="doc">
+                                        <p class="name">Малушко Т. Н.</p>
+                                        <p class="direction">Хирургия</p>
+                                    </div>
+                                </div>
+                                <button class="apply_button button_app">Отменить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="appointment">
+                        <div class="appointment_container">
+                            <h3 class="date">Понедельник 15.06.20 | 18:30</h3>
+                            <p class="place">СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А</p>
+                            <div class="doctor_button">
+                                <div class="doctor">
+                                    <img class="photo" src="./images/harkov.svg">
+                                    <div class="doc">
+                                        <p class="name">Харьков В. С.</p>
+                                        <p class="direction">Терапевтическое отделение</p>
+                                    </div>
+                                </div>
+                                <button class="apply_button button_app">Отменить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more_appointments">
+                        <p class="more">Ещё 3 записи</p>
+                        <a href="./pages/page2.html" class="more app-s">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <p class="appointments">Электронная карта</p>
+                <div class="cards_flex">
+                    <div>
+                        <div class="card">
+                            <div class="cards_vector">
+                                <img src="./images/info_client.svg">
+                            </div>
+                            <div class="cards_title">
+                                <p class="cards_name">Информация о пациенте</p>
+                                <hr class="line">
+                                <ul id='card_ul'>
+                                    <li><a  class="cards_lis" href="a">Ваши личные данные</a></li>
+                                    <li><a class="cards_lis" href="a">Рекомендации врачей</a></li>
+                                    <li><a class="cards_lis" href="a">Истории болезней</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards_vector">
+                                <img src="./images/add_info.svg">
+                            </div>
+                            <div class="cards_title">
+                                <p class="cards_name">Добавить информацию</p>
+                                <hr class="line">
+                                <a class="cards_funcs" href="a">Добавляйте в свою электронную медицинскую карту новые данные</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div>
+                        <div class="card">
+                            <div class="cards_vector">
+                                <img src="./images/analysis.svg">
+                            </div>
+                            <div class="cards_title">
+                                <p class="cards_name">Результаты анализов</p>
+                                <hr class="line">
+                                <a class="cards_funcs" href="a">Вы можете узнать здесь результаты своих анализов</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cards_vector">
+                                <img src="./images/history.svg">
+                            </div>
+                            <div class="cards_title">
+                                <p class="cards_name">История приёмов</p>
+                                <hr class="line">
+                                <a class="cards_funcs" href="a">Вся информация о полученных услугах за все время хранится здесь</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
